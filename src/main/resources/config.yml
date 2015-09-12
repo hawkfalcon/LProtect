@@ -1,0 +1,14 @@
+regions:
+  region:
+    x: 10
+    z: 6
+    potion:
+      name: "&7Region"
+      type: POISON
+amount:
+  default: 2
+  3: 3
+  gold: 4
+
+blacklisted_worlds:
+- world_nether

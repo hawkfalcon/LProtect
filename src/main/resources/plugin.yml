@@ -1,0 +1,27 @@
+name: LProtect
+main: com.hawkfalcon.lprotect.LProtect
+version: 0.0.1
+description: Protection plugin for LUMC
+author: hawkfalcon
+website: hawkfalcon.com
+depend: [WorldGuard]
+commands:
+    protect:
+        description: Main protect command
+        usage: /<command>
+        aliases: [lprotect, pprotect, potionprotect]
+permissions:
+    protect.use.addplayer:
+        default: true
+    protect.use.removeplayer:
+        default: true
+    protect.use.noenter:
+        default: true
+    protect.mod:
+        default: OP
+    protect.claim:
+        default: OP
+    protect.potion:
+        default: OP
+    protect.list:
+        default: true
